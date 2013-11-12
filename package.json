@@ -1,8 +1,11 @@
 {
   "name": "mozilla-detect-os",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect the correct OS for your mozilla product",
   "main": "detectos.js",
+  "bin": {
+    "mozilla-detect-os": "./bin/mozilla-detectos"
+  },
   "scripts": {
     "test": "make test"
   },
