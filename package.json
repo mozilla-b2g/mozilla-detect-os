@@ -1,0 +1,25 @@
+{
+  "name": "mozilla-detect-os",
+  "version": "0.0.0",
+  "description": "Detect the correct OS for your mozilla product",
+  "main": "detectos.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla-b2g/mozilla-detect-os.git"
+  },
+  "keywords": [
+    "mozilla",
+    "detectos"
+  ],
+  "author": "James Lal [:lightsofapollo]",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/mozilla-b2g/mozilla-detect-os/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
+}
