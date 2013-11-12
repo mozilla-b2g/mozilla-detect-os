@@ -5,8 +5,7 @@
  *
  * @return {String} OS type to use for downloading firefox/b2g.
  */
-function detectOS(product, target) {
-  product = product || 'firefox';
+function detectOS(target) {
   target = target || process;
 
   var arch = target.arch;

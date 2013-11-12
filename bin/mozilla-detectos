@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+
+var os = require('../')();
+process.stdout.write(os + '\n');
